@@ -1,0 +1,13 @@
+--database orfanato 
+
+--DROP DATABASE IF EXISTS orfanato;
+
+insert into causa values(1, 'terremoto')
+select = from causa
+--crear tabla causa
+Create table causa2(
+  idcausa serial primary key,
+  description varchar (209)
+
+);
+insert into causa(idcausa, descripcion) values('abandono de abuelos'),('drogas')
